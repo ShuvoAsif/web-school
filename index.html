@@ -13,8 +13,8 @@
 
 <body>
     <Header class="container">
-        <nav class="navbar navbar-expand-lg fixed-top bg-light">
-            <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container fixed-top bg-light">
                 <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -24,19 +24,19 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Courses</a>
+                            <a class="nav-link" href="#courses">Courses</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Deals</a>
+                            <a class="nav-link" href="#deal">Deals</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Success</a>
+                            <a class="nav-link" href="#Qustions">Qustions</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
+                            <a class="nav-link" href="#footer">About</a>
                         </li>
                     </ul>
                     <button class="btn btn-primary fw-bold" type="submit">Register</button>
@@ -49,44 +49,47 @@
     ------------------------------------------------->
 
     <!----------------- slider style ---------------->
-    <section class="container mt-5">
+    <section id="home" class="container mt-5">
         <div id="carouselExampleCaptions" class="carousel carousel-dark slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active bg-black position-relative">
                     <img src="images/cover/cover-1.png" class="d-block opacity-50 w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block position-absolute top-50 start-50 translate-middle">
-                        <h1 class="fw-bolder text-white">Get Started Digital
+                    <div
+                        class="text-center d-sm-block d-md-block position-absolute top-50 start-50 w-75 lh-1 translate-middle">
+                        <h1 class="fw-bolder fs-1 text-white">Get Started Digital
                             Learning</h1>
-                        <p class="text-white">The importance of EdTech does not just lie with the power it has to bring
-                            down costs and
-                            engage learners in new and innovative ways. It is also about the way in which it can
-                            equalize standards and enable access for all, resulting in the democratization of education.
+                        <p class="text-white fs-6 lh-sm">The importance of EdTech does not just lie with the power it
+                            has to
+                            bring
+                            down costs.
                         </p>
                         <button class="btn btn-primary fw-bold" type="submit">Get Started</button>
                     </div>
                 </div>
                 <div class="carousel-item bg-black position-relative">
                     <img src="images/cover/cover-2.png" class="d-block opacity-50 w-100 " alt="...">
-                    <div class="carousel-caption d-none d-md-block position-absolute top-50 start-50 translate-middle">
-                        <h1 class="fw-bolder text-white">Get Started Digital
+                    <div
+                        class="text-center d-sm-block d-md-block position-absolute top-50 start-50 w-75 lh-1 translate-middle">
+                        <h1 class="fw-bolder fs-1 text-white text-white">Get Started Digital
                             Learning</h1>
-                        <p class="text-white">The importance of EdTech does not just lie with the power it has to bring
-                            down costs and
-                            engage learners in new and innovative ways. It is also about the way in which it can
-                            equalize standards and enable access for all, resulting in the democratization of education.
+                        <p class="text-white fs-6 lh-sm">The importance of EdTech does not just lie with the power it
+                            has to
+                            bring
+                            down costs.
                         </p>
                         <button class="btn btn-primary fw-bold" type="submit">Get Started</button>
                     </div>
                 </div>
                 <div class="carousel-item bg-black position-relative">
                     <img src="images/cover/cover-3.png" class="d-block opacity-50 w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block position-absolute top-50 start-50 translate-middle">
-                        <h1 class="fw-bolder text-white">Get Started Digital
+                    <div
+                        class="text-center d-sm-block d-md-block position-absolute top-50 start-50 w-75 lh-1 translate-middle">
+                        <h1 class="fw-bolder fs-1 text-white">Get Started Digital
                             Learning</h1>
-                        <p class="text-white">The importance of EdTech does not just lie with the power it has to bring
-                            down costs and
-                            engage learners in new and innovative ways. It is also about the way in which it can
-                            equalize standards and enable access for all, resulting in the democratization of education.
+                        <p class="text-white fs-6 lh-sm">The importance of EdTech does not just lie with the power it
+                            has to
+                            bring
+                            down costs.
                         </p>
                         <button class="btn btn-primary fw-bold" type="submit">Get Started</button>
                     </div>
@@ -107,7 +110,7 @@
     <!----------------- slider end ------------------>
 
     <!----------------- courses start --------------->
-    <section class="container my-5">
+    <section id="courses" class="container my-5">
         <div class="mb-3 d-flex justify-content-center align-items-center text-center">
             <div class="w-50 my-auto">
                 <h1 class="fw-bolder">Discover Our Popular</h1>
@@ -118,7 +121,7 @@
                     how to create a business plan, and secure funding. This is our courses.</p>
             </div>
         </div>
-        <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="row row-cols-1 row-cols-md-1 row-cols-lg-2 g-4">
             <div class="col">
                 <div class="card mb-3" style="max-width: 540px;">
                     <div class="row g-0">
@@ -234,7 +237,7 @@
     </section>
     <!------------------ courses end ---------------->
     <!------------------ modal start ---------------->
-    <section class="container my-5">
+    <section id="deal" class="container my-5">
         <div
             class="py-3 rounded-3 d-flex flex-sm-column flex-lg-row flex-column justify-content-around align-items-center bg-primary">
             <div class="text-center" style="max-width:450px;">
@@ -276,7 +279,7 @@
     </section>
     <!------------------ modal end ---------------->
     <!---------------- qustion start -------------->
-    <section class="container my-5">
+    <section id="Qustions" class="container my-5">
         <div>
             <div class="text-center">
                 <h1 class="fw-bold">Frequently Asked Questions</h1>
@@ -397,7 +400,7 @@
     <!--------------- companies start ------------->
 
     <!---------------- footer starts -------------->
-    <footer class="bg-black p-5">
+    <footer id="footer" class="bg-black p-5">
         <div class="text-center">
             <h1 class="fw-semibold text-white">Web School</h1>
             <p class="text-white">Ofiice 41, Shahrasti, Chandpur</p>
@@ -409,16 +412,20 @@
             </div>
             <div class="d-flex justify-content-evenly w-50 m-auto">
                 <div>
-                    <i class="fa-brands fa-facebook fw-bold fs-3 text-white"></i>
+                    <a href="http://" target="_blank" rel="noopener noreferrer"><i
+                            class="fa-brands fa-facebook fw-bold fs-3 text-white"></i></a>
                 </div>
                 <div>
-                    <i class="fa-brands fa-square-twitter fw-bold fs-3 text-white"></i>
+                    <a href="http://" target="_blank" rel="noopener noreferrer"><i
+                            class="fa-brands fa-square-twitter fw-bold fs-3 text-white"></i></a>
                 </div>
                 <div>
-                    <i class="fa-brands fa-linkedin fw-bold fs-3 text-white"></i>
+                    <a href="http://" target="_blank" rel="noopener noreferrer"><i
+                            class="fa-brands fa-linkedin fw-bold fs-3 text-white"></i></a>
                 </div>
                 <div>
-                    <i class="fa-brands fa-tiktok fw-bold fs-3 text-white"></i>
+                    <a href="http://" target="_blank" rel="noopener noreferrer"><i
+                            class="fa-brands fa-tiktok fw-bold fs-3 text-white"></i></a>
                 </div>
             </div>
 
